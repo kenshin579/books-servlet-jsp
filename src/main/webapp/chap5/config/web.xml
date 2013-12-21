@@ -15,6 +15,6 @@
 
     <servlet-mapping>
         <servlet-name>configTest1</servlet-name>
-        <url-pattern>/chap5/config/configTest1.jsp</url-pattern>
+        <url-pattern>/configTest1.jsp</url-pattern>
     </servlet-mapping>
 </web-app>

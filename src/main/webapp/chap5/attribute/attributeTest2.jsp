@@ -11,6 +11,7 @@
     String email = request.getParameter("email");
     String address = request.getParameter("address");
     String tel = request.getParameter("tel");
+
     session.setAttribute("email", email);
     session.setAttribute("address", address);
     session.setAttribute("tel", tel);

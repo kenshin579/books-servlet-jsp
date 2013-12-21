@@ -7,6 +7,7 @@
     <title>Insert title here</title>
 </head>
 <body>
+<p>page 영역과 request 영역 비교</p>
 <%
     pageContext.setAttribute("pageScope", "pageValue");
     request.setAttribute("requestScope", "requestValue");

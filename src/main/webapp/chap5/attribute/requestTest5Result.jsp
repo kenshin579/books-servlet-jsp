@@ -7,6 +7,9 @@
     <title>Insert title here</title>
 </head>
 <body>
+<p>페이지 영역의 속성 값은 한 페이지에서만 공유가 가능하므로 제대로 출력되지 않지만, request 영역은 하나의 요청을
+    처리하는 영영역에서 공유가 가능하므로 속성 값이 출력된다.</p>
+
 pageValue = <%=pageContext.getAttribute("pageScope") %><br>
 requestValue = <%=request.getAttribute("requestScope") %>
 </body>
