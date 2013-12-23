@@ -14,4 +14,11 @@
         <servlet-name>ServletTest</servlet-name>
         <url-pattern>/test</url-pattern>
     </servlet-mapping>
+
+    <resource-ref>
+        <description>DB Connection</description>
+        <res-ref-name>jdbc/servlet_jsp</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
 </web-app>
